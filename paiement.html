@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 650px)" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Paiement</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="index.html" class="logo"></a>
+        <nav>
+          <ul class="menu-left" id="myLinks">
+            <li>
+              <a href="NosMenus.html">Nos menus</a>
+            </li>
+            <li>
+              <a href="abonnement.html">Abonnements</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="concept.html">Le concept</a>
+            </li>
+          </ul>
+          <ul class="menu-right">
+            <li>
+              <a href="connexion.html" class="btn1">Connexion</a>
+            </li>
+            <li>
+              <a href="Espace_client.html" class="btn2">Espace client</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <h1 class="titre_paiement">Finalisez votre commande</h1>
+    <div class="super-block">
+      <div class="big-block-paiement">
+        <div class="block-titre_paiement">
+          <h2 class="block_choix">Choississez votre mode de paiement</h2>
+          <p style="font-size: 10px;">Tous les champs suivi d'un <span class="asteris">*</span> est obligatoire </p>
+        </div>
+        <div class="block_div_choix">
+          <input type="radio"> Carte de paiement <div class="img-carte">
+            <img src="./img/mstrcrd_1.png" alt="MasterCard">
+            <img src="./img/visa_1.png" alt="Visa">
+          </div>
+        </div>
+        <div class="infos-bancaire">
+          <p>Payez avec une carte bancaire</p>
+          <div class="numero-bancaire">
+            <label>Numero de carte bancaire</label>
+            <span class="asteris">*</span>
+            <input type="text" placeholder="1234 1234 1234 1234">
+            <label>Date d'expiration</label>
+            <span class="asteris">*</span>
+            <input type="date">
+          </div>
+          <div class="cbc">
+            <label for="Crytogramme" id="Crytogramme">Crytogramme Visuel</label>
+            <span class="asteris">*</span>
+            <input type="text" placeholder="CVC">
+            <p style="font-size: 14px;">
+              <img src="img/attention.png" alt="">Il s’agit des trois derniers chiffres présents au dos d'une carte de paiement
+            </p>
+          </div>
+          <div class="choix-Rgpd">
+            <input type="checkbox">Je souhaite enregistrer mes informations bancaires pour de futures commandes
+          </div>
+          <div class="buy-paypal">
+            <input type="radio">Paypal <img src="img/paypal_1.png" alt="Logo paypal">
+          </div>
+          <div class="choix-Rgpd">
+            <input type="checkbox">
+            <span style="font-size: 15px;">J’ai lu et j’accepte les conditions générales</span>
+            <span class="asteris">*</span>
+          </div>
+          <div class="btn-validation-paiement">
+            <a href="#" class="btn1" onclick="openPopup()">Valider</a>
+            <div class="popup" id="popup">
+              <img src="img/img.popup.png" alt="image_pop_up">
+              <h2>Merci de faire confiance à Minus</h2>
+              <p>Votre commande à été bien prise en compte</p>
+              <button>
+                <a href="index.html" onclick="closePopup()">Fermer</a>
+              </button>
+            </div>
+            <a href="#" class="failed">Annuler</a>
+          </div>
+        </div>
+      </div>
+      <div class="total-price">
+        <p>Montant total à payer: <span class="asteris">39.00€</span>
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="container-footer" style="border-bottom: 2px solid black;">
+        <div class="blo1 footer-services">
+          <h3 class="titles1">Nos offres</h3>
+          <ul class="blo1ul">
+            <li>
+              <a href="#">Nos menus</a>
+            </li>
+            <li>
+              <a href="#">Nos abonnements</a>
+            </li>
+            <li>
+              <a href="#">Goodies</a>
+            </li>
+            <li>
+              <a href="#">Livraison/commande</a>
+            </li>
+          </ul>
+        </div>
+        <div class="blo2 footer-services">
+          <h3 class="titles1">A propos</h3>
+          <ul class="blo1ul">
+            <li>
+              <a href="#">Le blog Minus</a>
+            </li>
+            <li>
+              <a href="#">Contactez nous</a>
+            </li>
+            <li>
+              <a href="#">Nos engagements</a>
+            </li>
+            <li>
+              <a href="#">Conseil nutritif</a>
+            </li>
+            <li>
+              <a href="#">Astuce cuisine</a>
+            </li>
+          </ul>
+        </div>
+        <div class="blo3 footer-services">
+          <h3 class="titles1">Aide et Support</h3>
+          <ul class="blo1ul">
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Mentions légales</a>
+            </li>
+            <li>
+              <a href="#">Politique de confidentialité</a>
+            </li>
+          </ul>
+        </div>
+        <div class="blo4 footer-services">
+          <h3>Réseaux Sociaux</h3>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="icone/fb.svg" alt="icones résaux sociaux">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icone/insta.svg" alt="icones résaux sociaux">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icone/twi.svg" alt="icones résaux sociaux">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="under">
+        <p>@minus.com</p>
+        <p>copyright2023</p>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./img/mstrcrd_1.png" alt="icons_paiements">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/paypal_1.png" alt="icons_paiements">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/visa_1.png" alt="icons_paiements">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
