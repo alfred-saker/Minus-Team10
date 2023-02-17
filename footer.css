@@ -1,0 +1,74 @@
+/* FOOTER  */
+
+li a{
+    color: black;
+}
+.container-footer {
+  
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  
+  margin: 0 80px;
+  
+  
+}
+  
+.container-footer .blo4 ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+}
+.container-footer .blo4 ul li{
+      width: 80%;
+      
+}
+      
+  
+  
+.container-footer .blo4 ul {
+      margin-top: 55px;
+}
+  
+.container-footer ul li {
+      font-size: 20px;
+      margin-bottom: 15px;
+}
+.container-footer h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 15px;
+}
+  
+.container-footer .blo4 ul li img {
+      width: 80%;
+     
+}
+  
+.container-footer .footer-services ul li a:hover {
+      text-decoration: underline;
+      
+}
+  
+  
+.under {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 80px;
+      margin-top: 10px;
+}
+  
+  
+.under ul {
+      display: flex;
+}
+  
+.under p {
+      font-size: 18px;
+}
+  
+.under ul li img{
+      margin-left: 5px;
+}
+  

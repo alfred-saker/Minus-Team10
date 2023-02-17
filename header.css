@@ -1,0 +1,81 @@
+.wrapper {
+    padding: 0px;
+    margin : 0px;
+    /* overflow: hidden; */
+    background-color: #312783;
+
+}
+
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+
+}
+
+
+header .logo {
+    width: 95px ;
+    height: 90px;
+    margin: 25px;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+
+header .icon {
+    
+    display: none;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    color: #ffff;
+}
+
+header nav ul.menu-left{
+    margin-left: 30px;
+  }
+
+header  .menu-right {
+    margin-right: 25px;
+
+}
+
+header nav ul li a{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.btn1 , .btn2 {
+padding: 10px;
+background: #377e12;
+border: 1px #377e12 solid;
+border-radius: 10px;
+color: #FFFFFF;
+}
+  
+header nav ul.menu-left li a:hover {
+    text-decoration: underline;
+}
+
+

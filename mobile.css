@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url(header_mobile.css);
+@import url(footer_mobile.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+ 
+.wrapper {
+  padding: 0px;
+  margin : 0px;
+  background-color: #312783;
+}
+
+/* hEADER 
+
+header .logo {
+  background-image: url(../img/logo_mobile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .menu-right .btn1 {
+  display: none;
+}
+
+header .menu-right .btn2 {
+  content: url("../icone/Vector.svg");
+  background-color: #312783;
+  border: #312783;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav {
+  position: relative;
+  width: auto;
+}
+
+#myLinks {
+  display: none;
+  flex-direction: column;
+  }
+#myLinks li a {
+  padding: 5px;
+}
+.menu-left{
+  position: absolute;
+  top: 65px;
+  right: 25em;
+  background-color: #312783;
+  z-index: 1;
+}
+.wrapper a.icon {
+  background: none;
+  display: block;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;    
+}
+
+header nav ul.menu-left li a:hover {
+  text-decoration: underline;
+}
+header .logo {
+  margin: auto;
+}
+header nav .menu-right {
+  margin: auto;
+}
+
+header nav .margin-left {
+  margin: auto;
+}
+*/
+.section3 .eng{
+	display: block;
+	text-align: center;
+}
+.section4{
+  display: block;
+  margin-left:8em;
+}
+.title1{
+  font-size: 30px;
+  text-align: center;
+	font-weight:700 ;
+}
+
+.title3 {
+  font-size: 18px;
+}
+.section5{
+  display: block;
+  text-align: center;
+}
+.section5 .new{
+	width: 80%;
+  margin-bottom: 2em;
+}
+.section5 .new-form .boutons{
+	margin: auto;
+}
+.eng img{
+  width: 50%;
+}
+.container-footer{
+  display: block;
+}
+
+.blo1 ul,.blo2 ul, .blo3 ul{
+  display: none;
+  position: relative;
+}
+
+.blo1 h3::after, .blo2 h3::after, .blo3 h3::after{
+  content:url("../icone/down.png");
+  display: block;
+  position: absolute;
+  right:10%;
+  margin-top: -25px;
+  z-index: 1;
+}
+.container-footer .blo4 ul li img{
+  width: 100%;
+} 
+
+/* Mobile Nos Paniers ---------------------------------------------------------------------------------*/
+
+.slider {
+  display: none;
+}
+
+.textslider {
+  font-size: 35px;
+  text-align:center;
+  justify-content: center;
+}
+
+.hautdepage {
+  flex-wrap: wrap;
+}
+
+/*.hautpagecalendrier {
+  height: 70px;
+}*/
+
+.hautpagecalendrier{
+  flex-direction: column;
+  align-items: center;
+  order:1;
+  justify-content: left;
+}
+.hautpagecalendrier img{
+  height:50px;
+  order:1;
+  margin-bottom: 10px;
+}
+.hautpagedate h2{
+  margin-left: 0;
+  text-align: center;
+  font-size: 24px;
+}
+.hautpagedate{
+  order:2;
+}
+.hautpagedateimg{
+  height:5px;
+}
+.hautdepage{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* .hautpagedate {
+  font-size: 24px;
+  will-change: 100%;
+  order: 3;
+  flex-direction:row; }*/
+
+/*.hautpagedate img{
+flex-direction:row;
+}*/
+.boutonfiltre {
+order:1;
+}
+
+.imagecartemenu img {
+  Width: 100%;
+}
+
+.nosmenus {
+  display: block;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+
+.cartemenu {
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.boutonplus {
+  justify-content: right;
+}
+
+.boutonvalider {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 60px;
+}
+
+.valider {
+  background-color: green;
+  color: white;
+  border-color: green;
+  position: absolute;
+  border-radius: 10px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 24px;
+  height: 40px;
+  text-align:center;
+  
+}
+
+/* CSS Concepts ------------------------------------------------------------------------------*/
+
+
+/* section 1  */
+
+
+.section_1 h2 {
+  padding: 50px;
+}
+
+.section_1 .historic a .img_mathilde{
+  margin-top: 0px;
+  margin-left: -85px;
+  height: 335px;
+}
+.section_1 .historic a .img_emma {
+  margin-right: -100px;
+  height: 360px;
+  
+}
+
+.section_1 p {
+  font-size: 10px;
+  width:40%;
+  line-height: 20px;
+  border : 2px solid transparent;
+  background-color: #ffff;
+  padding: 8px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-top: 30px;
+  
+  
+}
+
+
+/* FEATURES  */
+
+
+.features {
+  display: block;
+}
+
+
+.features .features-left .img-rounded {
+width: 100%;
+}
+
+
+.section_3 h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+.features .features-list ul li strong {
+  padding: 8px;
+}
+.features .features-list ul li strong {
+  padding: 8px;
+  font-size: 15px;
+}
+.features .features-list ul li {
+  font-size: 15px;
+}
+
+.features .features-right {
+  margin-left: auto;
+}
+
+
+
+
+/* engagements  */
+
+.section_4 h2 {
+  margin:0px -80px 0 -80px;
+}
+
+.engagement_2 > p { 
+  order : 2
+
+}
+.engagement_2 > div { 
+  order : 1
+
+}
+
+
+.engagement_1 , .engagement_2, .engagement_3 {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  
+  
+}
+
+
+.engagement_1 img, .engagement_2 img, .engagement_3 img  {
+  width: 100%;
+  margin: auto;
+}
+
+
+.engagement_1 p, .engagement_2 p, .engagement_3 p  {
+  margin-top: 30px ;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+/* CSS Abonnement------------------------------------------------------------------------------ */
+
+/* offer  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url(header_mobile.css);
+@import url(footer_mobile.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Raleway', sans-serif; */
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    /* font-weight: ; */
+
+}
+ 
+.wrapper {
+    padding: 0px;
+    margin : 0px;
+    background-color: #312783;
+
+}
+
+
+/* offer  */
+
+
+.section_two h2 {
+    font-size: 25px;
+}
+
+
+.section_two .type_abonnement {
+    display: block;
+}
+
+
+.section_two .type_abonnement .type_one, .section_two .type_abonnement .type_two {
+    margin : 0 20% 10% 20%;
+    text-align: center;
+}
+
+.section_two .type_abonnement .type_one  a:first-child img , .section_two .type_abonnement .type_two a:first-child img {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+/* PAGE PAIEMENT  */
+
+
+
+.super-block{
+    display: block;
+    margin-top: 2em;
+  }
+.big-block-paiement{
+    margin:1em 0 0 3em;
+    width:80%;
+    order: 2;
+  }
+.total-price{
+    order: 1;
+}
+
+.btn-validation-paiement {
+  margin-bottom: 2em;
+}
+
+
+
+
+/* CONNEXION  */
+
+.big-div {
+  display: flex;
+  flex-direction: column-reverse;
+  margin:0 2em 10em 2em;
+  padding: 16px;
+  
+}
+.img-connexion {
+  width: 60%;
+  margin-bottom: 3em ;
+  align-self: center;
+}
+.titre-connexion {
+  text-align: center;
+  margin: 1em auto 2em;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.big-div p a {
+  line-height: 3;
+}
+
+
+
+
+/* INSCRIPTION  */
+
+.btn-validate{
+  width: 40%;
+}
+
+
+
+
+/* Reacapcommande  */
+
+
+.select-date-time{
+  display:block;
+  text-align: center;
+  margin-top: 10em;
+}
+.title-recap,livraison{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.item-image1{
+  display: block;
+}
+.item-image1 p,.qtite1,.qtite2,.qtite3,.qtite4{
+  text-align: center;
+}
+.qtite1,.qtite2,.qtite3,.qtite4{
+  margin: 0;
+}
+.item-image1 img{
+  width: 80%;
+  margin-left:3em;
+  clip-path: circle(30% at 49% 51%);
+}
+.price{
+  position: absolute;
+  right: 10em;
+  margin-top: 1em;
+}
+.link-update-commande{
+  margin-top: em;
+}
+.adresse-liv{
+  display: block;
+}
+.link-update-adresse{
+  margin-top: 3em;
+}
+.div-btn .link-buy,.link-back{
+  padding: 20px;
+  margin-left: 14em;
+}
+.container-recap{
+  margin-bottom:12em;
+}
+.hour{
+  margin-top: 3em;
+}

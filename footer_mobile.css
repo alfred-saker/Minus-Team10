@@ -1,0 +1,63 @@
+/* FOOTER  */
+
+.container-footer{
+    display: block;
+}
+  
+  .blo1 ul,.blo2 ul, .blo3 ul{
+    display: none;
+    position: relative;
+}
+  
+  .blo1 h3::after, .blo2 h3::after, .blo3 h3::after{
+    content:url("img/down.png");
+    display: block;
+    position: absolute;
+    right:10%;
+    margin-top: -25px;
+}
+
+.container-footer .blo4 ul li img {
+    width: 50%;
+    margin: auto;
+    
+}
+
+.container-footer ul li {
+    font-size: 12px;
+}
+
+.container-footer .blo4 ul {
+    display: flex;
+    justify-content:center;
+    margin: 20px 0px 10px 0px;
+}
+
+
+
+.container-footer .blo4 ul li{
+    display: contents;
+    
+
+}
+
+.under  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.under ul {
+    margin-left: 20px;
+}
+
+
+.under ul li img {
+    width: 80%;
+    
+}
+
+
+.under p {
+    font-size: 12px;
+}
